@@ -1,9 +1,4 @@
-# Cart Order Tools(COT)
-> 购物车订单工具
-
-目标: 提高订单购物车工作效率
-
-迭代方式: 定期反馈工作中频繁处理的问题,及时更新COT工具
+# 公共工具
 
 # 技术栈
 - 前端框架 [ant-design-vue](https://vue.ant.design/docs/vue/introduce-cn/)
@@ -12,7 +7,6 @@
 - [webpack](https://webpack.js.org/)
 - [router](https://router.vuejs.org/zh/)
 - 第三方组件:   
-  - 网络: [axios](https://github.com/axios/axios)
   - 剪贴板复制 [vue-clipboards](https://www.npmjs.com/package/vue-clipboards)
   - json格式化工具 [vue-json-pretty](https://www.npmjs.com/package/vue-json-pretty)
 
@@ -25,9 +19,6 @@ npm install
 
 # 本地开发构建(支持热更新) http://localhost:8080
 npm run dev
-
-# 构建非生产包
-npm run build-test
 
 # 构建生产包
 npm run build
@@ -75,10 +66,4 @@ npm run build
          }
          
      }
-```
-
-# disconf配置中心配置
-```
-  管理员键:ORDER_TOOLS_ADMIN
-  用户配置键:order.tools.login.info  配置格式{"username":"password","username":"password"}
 ```
