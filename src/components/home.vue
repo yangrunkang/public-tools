@@ -41,7 +41,9 @@
       </a-row>
     </a-layout-content>
     <a-layout-footer style="background: white;font-size:large;font-weight: lighter;text-align: center">
-      <div> <a class="footer-link" href="http://www.addoiles.com"  target="_blank">独立网站:加油网站</a></div>
+      <div> <a class="footer-link" href="http://www.addoiles.com"  target="_blank">独立网站:加油网站</a>
+        |
+        <a class="footer-link" href="http://www.addoiles.com/Suggest"  target="_blank">反馈以添加工具</a></div>
     </a-layout-footer>
   </a-layout>
 
